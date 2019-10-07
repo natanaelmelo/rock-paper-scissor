@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock - Paper - Scissors Game</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <div>
+            <nav class="menuzim">
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">More Games</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">User</div>
+        <div id="computer-label" class="badge">Comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Let's go to start? Make your choice!! 😉</p>
+    </div>
+
+    <div id="user-choice" class="usChoice">
+        <img id="us-choice" src="">
+    </div>
+
+    <div id="computer-choice" class="compChoice">
+        <img id="comp-choice" src="">
+    </div>
+
+
+    <div class="choices">
+        <div class="choice">
+            <img src="./images/rock.png" id="r">
+        </div>
+        <div class="choice">
+            <img src="./images/paper.png" id="p">
+        </div>
+        <div class="choice">
+            <img src="./images/scissor.png" id="s">
+        </div>
+    </div>
+
+    <div id="simpleModal" class="modal">
+        <div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <h3 id="gameOver" class="finish">Acabou mané</h3>
+        </div>
+    </div>
+
+    <p id="action-menssage">&copy;Natanael Melo</p>
+    <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>
